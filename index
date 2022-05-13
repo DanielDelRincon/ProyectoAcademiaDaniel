@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Pepito</title>
+    <link rel="stylesheet" href="./css/cssMenu.css">
+    <link rel="stylesheet" href="./css/cssEncabezado.css">
+    <script src="./js/mensajeria_carreras.js"></script>
+
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <hgroup>
+                <h1>Academia Panda Rojo</h1>
+                <h2>Menu Principal</h2>
+            </hgroup>
+        </header>
+        <main>
+            <div class="caja">
+                <a href="./webs/menuCarreras.html">Menu de Carreras</a>
+            </div>
+            <div class="caja">
+                <a href="./webs/menuAlumnos.html">Menu de Alumnos</a>
+            </div>
+            <div class="caja">
+                <a href="./webs/menuProfesor.html">Menu de Profesores</a>
+            </div>
+            <div class="caja">
+                <a href="./webs/menuMateria.html">Menu de Materias</a>
+            </div>
+            <div class="caja">
+                <a href="./Publicacion/Publicacion.php">Venta de materias</a>
+            </div>
+            <div id="panelInformativo"></div>
+            
+
+        </main>
+        <footer>
+            <div class="caja">
+                <a href="./php/AltaUsuarios.php">Alta Usuarios</a>
+            </div>
+            <div class="caja">
+                <a href="./Autentificar.php">Identificar Usuarios</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

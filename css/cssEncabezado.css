@@ -1,0 +1,22 @@
+@charset "UTF-8";
+:root{
+    --color: thistle;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 60%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-color: var(--color);
+    border-bottom: 1px solid aquamarine;
+}
+header hgroup a h1{
+    text-decoration: none;
+    color: black;
+}

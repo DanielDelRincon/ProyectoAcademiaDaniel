@@ -1,0 +1,32 @@
+@charset "UTF-8";
+:root{
+    --color: thistle;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 100px); */
+    gap: 1em;
+}
+.caja{
+    min-height: 100px;
+    background-color: var(--color);
+    display: inline-table;
+}
+.caja2{
+    
+}
+.caja a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
